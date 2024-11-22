@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="glsccompgraph.UploadController">
+    <children>
+        <VBox spacing="10" alignment="CENTER" layoutX="20.0" layoutY="20.0">
+            <ImageView fx:id="imageView" fitWidth="400" fitHeight="300" />
+            <Button text="Upload Image" onAction="#uploadImage" />
+            <ChoiceBox fx:id="operationChoice" />
+            <Button fx:id="processButton" text="Process Image" />
+        </VBox>
+    </children>
+</AnchorPane>
